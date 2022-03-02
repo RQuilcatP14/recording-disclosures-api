@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingDisclosures.API", "RecordingDisclosures.API\RecordingDisclosures.API.csproj", "{F43D38F5-773E-4801-B960-1AE0DD5C48A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02CB6694-FC81-4E74-8584-EC1D4DF8F97F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D9BEF95C-68AF-45DF-9389-143EA169A61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingDisclosures.DataAccess", "RecordingDisclosures.DataAccess\RecordingDisclosures.DataAccess.csproj", "{B4CD98B3-CBFE-4A19-AC77-3922D13D589B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingDisclosures.Domain", "RecordingDisclosures.Domain\RecordingDisclosures.Domain.csproj", "{8F6972E8-40A8-4CD9-8737-7441BE914EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingDisclosures.Interfaces", "RecordingDisclosures.Interfaces\RecordingDisclosures.Interfaces.csproj", "{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43D38F5-773E-4801-B960-1AE0DD5C48A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43D38F5-773E-4801-B960-1AE0DD5C48A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43D38F5-773E-4801-B960-1AE0DD5C48A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43D38F5-773E-4801-B960-1AE0DD5C48A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CD98B3-CBFE-4A19-AC77-3922D13D589B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CD98B3-CBFE-4A19-AC77-3922D13D589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CD98B3-CBFE-4A19-AC77-3922D13D589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CD98B3-CBFE-4A19-AC77-3922D13D589B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6972E8-40A8-4CD9-8737-7441BE914EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6972E8-40A8-4CD9-8737-7441BE914EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6972E8-40A8-4CD9-8737-7441BE914EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6972E8-40A8-4CD9-8737-7441BE914EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4CD98B3-CBFE-4A19-AC77-3922D13D589B} = {D9BEF95C-68AF-45DF-9389-143EA169A61A}
+		{8F6972E8-40A8-4CD9-8737-7441BE914EC3} = {02CB6694-FC81-4E74-8584-EC1D4DF8F97F}
+		{0AA6BC6B-9A81-4527-9835-C3DAAD6F4453} = {02CB6694-FC81-4E74-8584-EC1D4DF8F97F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2F20D3-E692-44A6-97DC-A3F6F0C85E38}
+	EndGlobalSection
+EndGlobal
